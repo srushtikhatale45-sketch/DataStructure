@@ -9,6 +9,7 @@ public class VariableNaming {
         int _a =12;
         int $b = 13;
         int x1 = 30;
+        System.out.println(10%2);
         // if int,class,package reserved keyword are not allowed to declare them ass a variable name.
 
     }
