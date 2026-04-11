@@ -2,7 +2,7 @@ package IfElseInJava;
 
 import java.util.Scanner;
 
-public class Greatest {
+public class Least3usingelseif {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 1 st number: ");
@@ -12,14 +12,14 @@ public class Greatest {
         System.out.println("Enter 3 rd number: ");
         int n3 = sc.nextInt();
 
-        if(n1>=n2 && n2>=n3){
-            System.out.println("The Greatest number is: "+n1);
+        if(n1<n2 && n2<n3){
+            System.out.println("The Least number is: "+n1);
         }
-        else if(n2>=n1 && n1>=n3){
-            System.out.println("The Greatest number is: "+n2);
+        else if(n2 <n3 && n3<n1){
+            System.out.println("The Least number is: "+n2);
         }
         else {
-            System.out.println("The Greatest number is: "+n3);
+            System.out.println("The Least number is: "+n3);
         }
     }
 }
