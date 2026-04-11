@@ -7,6 +7,7 @@ public class SpecificOutput {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Number : ");
         int n = sc.nextInt();
+//        Priority is set here
         if(n%5==0 && n%3==0){
             System.out.println("Aryan");
         }
