@@ -8,17 +8,17 @@ public class PrimeNumber {
         System.out.println("Enter the number: ");
         int n = sc.nextInt();
         boolean x = true;
-        for (int i = 0; i <=n ; i++) {
-            if(i%n!=0){
-                x=false;
-                System.out.println("The number is prime");
+        for (int i = 2; i <=Math.sqrt(n) ; i++) {
+            if (n % i == 0) {
+                x = false;
                 break;
             }
-            if(n==1) System.out.println("the number is neither prime nor composite");
-            if(x=true) System.out.println("The number is composite");
-            if(x=false) System.out.println("The number is composite");
-
-
         }
+            if(n==1) System.out.println("the number is neither prime nor composite");
+            else if(x==false) System.out.println("The number is composite");
+            else System.out.println("The number is prime");
+
+
+
     }
 }
