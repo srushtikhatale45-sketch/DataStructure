@@ -2,15 +2,17 @@ package Patterns;
 
 import java.util.Scanner;
 
-public class SmallAlphabets {
+public class QuestionofAlphabet {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the numbers : ");
+        System.out.print("Enter the number :");
         int n = sc.nextInt();
-        for (int i = 1; i <= n ; i++) {
+        for (int i = 1; i <=n ; i++) {
             for (int j = 1; j <=n; j++) {
-                System.out.print((char)(j+96) + " ");
+                System.out.print((char)(i+96+1)+" ");
+                System.out.println((char)(i+66+1)+" ");
             }
+
             System.out.println();
         }
     }
