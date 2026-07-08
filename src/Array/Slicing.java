@@ -13,7 +13,7 @@ public class Slicing {
             arr[i]= sc.nextInt();
         }
         for (int i = 0; i < n; i++) {
-            System.out.println(arr[i]);
+            System.out.println(i+" "+arr[i]);
         }
 
     }
