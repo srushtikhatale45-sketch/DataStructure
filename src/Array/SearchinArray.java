@@ -14,6 +14,7 @@ public class SearchinArray {
         }
         else {
             System.out.println("Element is not present.");
+            System.out.println("Element is not present.");
         }
     }
 }
