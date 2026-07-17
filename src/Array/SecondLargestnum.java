@@ -19,7 +19,7 @@ public class SecondLargestnum {
 
         print(arr);
 
-        int secondLargest = getSecondLargest(arr);
+        int secondLargest = Integer.MIN_VALUE;
 
         System.out.println("\nSecond Largest Element: " + secondLargest);
 
