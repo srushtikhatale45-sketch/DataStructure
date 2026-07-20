@@ -12,7 +12,8 @@ public class Reversearray {
         for (int i = 0; i < n; i++) {
             arr[i]=sc.nextInt();
         }
-        int i =0,j=0;
+
+        int i =0,j=n-1;
         while(i<j){
             int temp=arr[i];
             arr[i]=arr[j];
@@ -20,8 +21,8 @@ public class Reversearray {
             i++;
             j--;
         }
-        for(int ele:arr){
-            System.out.print(ele+" ");
+        for(int k =0;k<arr.length;k++){
+            System.out.print(arr[k]+" ");
         }
     }
 }
