@@ -16,15 +16,15 @@ public class MissingElement {
             System.out.print(ele+" ");
         }
         System.out.println();
-        ArrayElement(arr);
+        System.out.println( ArrayElement(arr));
     }
     static  int ArrayElement(int[] arr){
-        int sumarray = 0;
-        int n =arr.length+1;
-        int totalsum= n*(n+1)/2;
+        long sumarray = 0;
+        long n =arr.length+1;
+        long totalsum= n*(n+1)/2;
         for(int ele:arr){
             sumarray+=ele;
         }
-        return totalsum-sumarray;
+        return (int)(totalsum-sumarray);
     }
 }
